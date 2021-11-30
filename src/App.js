@@ -8,6 +8,7 @@ import Service from './pages/service/Service';
 import Projects from './pages/projects/Projects';
 import Contact from './pages/contact/Contact';
 import NotFind from './pages/notfound/NotFound';
+import Footer from './pages/footer/Footer';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
 
 
       </Routes>
+      <Footer></Footer>
       </BrowserRouter>
      
     </div>

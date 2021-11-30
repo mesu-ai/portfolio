@@ -9,7 +9,7 @@ const About = () => {
         <div style={{minHeight:'100vh',maxHeight:'auto' }} className="py-5"  >
             
             <Container >
-            <h3> About Me</h3>
+            <h3 className="fw-bold "> About Me</h3>
 
             <Row className="flex flex-lg-row flex-column-reverse  row-cols-lg-2 row-cols-1 py-5 ">
                 

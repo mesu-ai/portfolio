@@ -10,8 +10,8 @@ const Footer = () => {
 
         </Container>
         
-        <div style={{backgroundColor:'cornsilk'}} className="py-4 footer-container">
-            <p>&copy; 2021 All Right Served By Md Ibrahim Adham Mesu</p>
+        <div style={{backgroundColor:'black'}} className="py-4 footer-container text-white">
+            <p>&copy; 2021 || All Right Served By Md Ibrahim Adham Mesu</p>
         </div>
         </>
     );

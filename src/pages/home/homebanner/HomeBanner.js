@@ -2,10 +2,20 @@ import React from 'react';
 import './HomeBanner.CSS';
 import { Col, Container, Row } from 'react-bootstrap';
 import coverimg from '../../../images/coverimg.png';
+import { HashLink } from 'react-router-hash-link';
+
 
 
 
 const HomeBanner = () => {
+    
+    const url='https://drive.google.com/file/d/1-jK2xva-ZGNkzgza7FO4Lrh3CPX5Vkss/view?usp=sharing';
+
+    
+
+
+
+
     return (
         
         
@@ -26,7 +36,9 @@ const HomeBanner = () => {
                     <i className="bi bi-github fs-4 me-4"></i>
                     <i className="bi bi-linkedin fs-4 me-4"></i></p>
 
+                    <a as={HashLink} target="_blank" href={url} rel="noreferrer">
                     <button style={{fontWeight:'450'}} type="button" className="btn btn-outline-dark border-2 rounded-pill  fs-5 mt-4 px-3"> <i className="bi bi-arrow-down-circle-fill me-2"></i> Download My Resume</button>
+                    </a>
 
                     
 

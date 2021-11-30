@@ -10,7 +10,7 @@ const Contact = () => {
         <Container className="flex justify-content-center align-items-center ">
         <div className="border border-2 border-dark pt-4 pb-5">
         <h3 className="fw-bold mt-2 mb-5">Contact Me</h3>
-        <Form className="px-4 ">
+        <Form className="px-5 ">
        
         <Row className="mb-3 text-start row-cols-1 row-cols-md-2 row-cols-lg-2 ">
         <Form.Group as={Col} controlId="formGridName">
@@ -37,11 +37,11 @@ const Contact = () => {
         </Form.Group>
         </Row>
 
-        <FloatingLabel controlId="floatingTextarea2" label="Comments">
+        <FloatingLabel controlId="floatingTextarea2" label="Your Massage">
         <Form.Control
         as="textarea"
         required
-        placeholder="Leave a comment here"
+        placeholder="Leave a massage here"
         style={{ height: '100px' }}
         />
         </FloatingLabel>

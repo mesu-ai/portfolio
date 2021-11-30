@@ -1,0 +1,34 @@
+
+
+/* <ProgressBar
+completed={80}
+className="wrapper"
+barContainerClassName="barcontainer"
+completedClassName="barCompleted"
+labelClassName="label"
+/>
+.wrapper {
+    border: 3px solid white;
+    width: 600px;
+    border-radius: 30px;
+    
+  }
+  
+  .barcontainer {
+    background-color:#eeeeee;
+    border-radius: 30px;
+
+  }
+  
+  .barCompleted {
+    background-color: #474747;
+    width: 80%;
+    border-radius: 30px;
+  }
+  
+  .label {
+    font-size: 500;
+    text-align: start;
+    font-size: 15px;
+    color: white;
+  } */

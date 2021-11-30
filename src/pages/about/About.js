@@ -13,7 +13,7 @@ const About = () => {
 
             <Row className="flex flex-lg-row flex-column-reverse  row-cols-lg-2 row-cols-1 py-5 ">
                 
-                <Col className="text-start mt-lg-0 mt-5 ms-lg-0 ms-4">
+                <Col className="text-start mt-lg-0 mt-5 px-lg-0 px-4 ">
 
                    <AboutInfo/>
 

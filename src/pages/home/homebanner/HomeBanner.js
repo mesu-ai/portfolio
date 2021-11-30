@@ -15,7 +15,7 @@ const HomeBanner = () => {
 
             <Row className="flex flex-lg-row flex-column-reverse justify-content-center align-items-center row-cols-lg-2 row-cols-1 py-5 ">
                 
-                <Col className="text-start mt-lg-0 mt-5 ms-lg-0 ms-4">
+                <Col className="text-start mt-lg-0 mt-5 px-lg-0 px-4  ">
                     <h5 className="text-secondary ">Hello, I am</h5>
                     <h2 className="fw-bold">Md Ibrahim Adham Mesu</h2>
                     <h4 className="border-bottom border-top text-secondary py-2 w-50 mt-4">Front-End Developer</h4>
@@ -32,7 +32,7 @@ const HomeBanner = () => {
 
                 </Col>
                 <Col>
-                <img className="img-fluid" src={coverimg} alt="" />
+                <img className="img-fluid" src={coverimg} alt="" width='100%' />
 
                 </Col>
 

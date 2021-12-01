@@ -6,7 +6,8 @@ import contentcreate from '../../images/pencil-ruler-solid.svg';
 import frontend from '../../images/react-brands.svg';
 import backend from '../../images/server-solid.svg';
 import ux from '../../images/tv-solid.svg';
-import ServiceCard from './ServiceCard';
+import ServiceCard from './serviceCard/ServiceCard';
+// import ServiceCard from './serviceCard/ServiceCard';
 
 
 const services=[

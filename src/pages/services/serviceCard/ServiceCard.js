@@ -4,6 +4,7 @@ import { Card, Col } from 'react-bootstrap';
 const ServiceCard = ({service}) => {
     const {icon,serviceName,sortDetails}= service;
     return (
+        
         <Col>
             <Card className="h-100 p-3 shadow-lg ">
                 <Card.Img  variant="top" src={icon}  height="100" />

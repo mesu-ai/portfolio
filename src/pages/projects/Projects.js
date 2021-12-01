@@ -1,6 +1,7 @@
 import React from "react";
 import {Container, Row} from "react-bootstrap";
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "./projectCard/ProjectCard";
+
 
 const projects=[
     {

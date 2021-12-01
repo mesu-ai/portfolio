@@ -10,7 +10,7 @@ const Footer = () => {
 
         </Container>
         
-        <div style={{backgroundColor:'black'}} className="py-4 footer-container text-white">
+        <div  className="py-4 footer-container text-white bg-secondary">
             <p>&copy; 2021 || All Right Served By Md Ibrahim Adham Mesu</p>
         </div>
         </>

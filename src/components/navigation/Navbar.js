@@ -18,9 +18,12 @@ const Navigation = () => {
         <NavLink  className="nav-item mt-lg-0 mt-2" as={HashLink} to='/service'>SERVICES</NavLink>
 
         <NavLink className="nav-item mt-lg-0 mt-2" as={HashLink} to='/project'>PROJECTS</NavLink>
+
+        <NavLink className="nav-item mt-lg-0 mt-2" as={HashLink} to='/blog'>BLOG</NavLink>
+
         <NavLink className="nav-item mt-lg-0 mt-2" as={HashLink} to='/contact'>CONTACT</NavLink>
 
-        <NavLink className="nav-item mt-lg-0 mt-2" as={HashLink} to='/'>LOGIN</NavLink>
+        <NavLink className="nav-item mt-lg-0 mt-2" as={HashLink} to='/login'>LOGIN</NavLink>
         
         
         </Nav>

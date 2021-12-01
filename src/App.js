@@ -4,11 +4,14 @@ import './App.css';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Home from './pages/home/Home';
 import Navbar from './components/navigation/Navbar';
-import Service from './pages/service/Service';
+
 import Projects from './pages/projects/Projects';
 import Contact from './pages/contact/Contact';
 import NotFind from './pages/notfound/NotFound';
 import Footer from './pages/footer/Footer';
+import Blog from './pages/blog/Blog';
+import Login from './pages/login/Login';
+import Services from './pages/services/Services';
 
 function App() {
   return (
@@ -18,9 +21,11 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/home' element={<Home/>}></Route>
-        <Route path='/service' element={<Service/>}></Route>
+        <Route path='/service' element={<Services/>}></Route>
         <Route path='/project' element={<Projects/>}></Route>
+        <Route path='/blog' element={<Blog/>}></Route>
         <Route path='/contact' element={<Contact/>}></Route>
+        <Route path='/login' element={<Login/>}></Route>
         <Route path='*' element={<NotFind/>}></Route>
         
 

@@ -5,7 +5,7 @@ const ProgressCount = ({item}) => {
     const {courseName,percentage}=item;
     
     return (
-        <div>
+        <div className="ms-2">
             <h6 className="fw-bold">{courseName}</h6>
             <ProgressBar  completed={percentage} maxCompleted={100} />
             

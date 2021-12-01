@@ -8,12 +8,12 @@ const About = () => {
     return (
         <div style={{minHeight:'100vh',maxHeight:'auto' }} className="py-5"  >
             
-            <Container >
+            <Container className="d-flex flex-column  justify-content-center align-items-center">
             <h3 className="fw-bold "> About Me</h3>
 
-            <Row className="flex flex-lg-row flex-column-reverse  row-cols-lg-2 row-cols-1 py-5 ">
+            <Row className="d-flex flex-lg-row flex-column-reverse  row-cols-lg-2 row-cols-1 py-5">
                 
-                <Col className="text-start mt-lg-0 mt-5 px-lg-0 px-4 ">
+                <Col className="text-start mt-lg-0 mt-5 px-lg-2 px-4">
 
                    <AboutInfo/>
 
@@ -22,7 +22,7 @@ const About = () => {
 
                 </Col>
                 
-                <Col className="flex justify-content-center ">
+                <Col className="">
                 
                 <Progress/>
 

@@ -7,7 +7,7 @@ import './Contact.css';
 const Contact = () => {
     return (
         <div style={{backgroundColor:'#f7f7f7',minHeight:'100vh',maxHeight:'auto',padding:'20px 0'}}>
-        <Container className="flex justify-content-center align-items-center ">
+        <Container className=" justify-content-center align-items-center ">
         <div className="border border-2 border-dark pt-4 pb-5">
         <h3 className="fw-bold mt-2 mb-5">Contact Me</h3>
         <Form className="px-5 ">

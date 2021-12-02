@@ -3,13 +3,22 @@ import './Nabbar.css';
 import { Container, Nav, Navbar} from 'react-bootstrap';
 import { HashLink} from 'react-router-hash-link';
 import { NavLink } from 'react-router-dom';
+import logo from '../../images/logo.png';
 
 
 const Navigation = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="white" variant="light" sticky="top">
         <Container>
-        <Navbar.Brand href="#home">logo</Navbar.Brand>
+        <Navbar.Brand href="#home">
+      <img
+        src={logo}
+        width="30"
+        height="30"
+        className="d-inline-block align-top"
+        alt="React Bootstrap logo"
+      />
+    </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ms-auto ">

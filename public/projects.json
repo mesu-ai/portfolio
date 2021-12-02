@@ -39,15 +39,15 @@
         "language":[
             {
                 "name":"Java-Script",
-                "percentage":92
+                "percentage":88
             },
             {
                 "name":"HTML",
-                "percentage":2.7
+                "percentage":6
             },
             {
                 "name":"CSS",
-                "percentage":5.3
+                "percentage":6
             }
         ],
         "details":"Dynamic Responsive Tourism Website. Users can view a tour/tour package, after successful login, they can book tour guide information and buy and book new and upcoming tour packages. Admin can manage all systems.",
@@ -71,15 +71,15 @@
         "language":[
             {
                 "name":"Java-Script",
-                "percentage":87.5
+                "percentage":87
             },
             {
                 "name":"HTML",
-                "percentage":4.7
+                "percentage":6
             },
             {
                 "name":"CSS",
-                "percentage":7.8
+                "percentage":7
             }
         ],
 

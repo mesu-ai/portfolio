@@ -14,7 +14,7 @@ const LanguageUse = ({projectFind}) => {
 
 
     return (
-        <div>
+        <div className="p-5 ">
             {
             projectLanguages &&
                 projectLanguages.map(item=><ProgressCount item={item} key={Math.random()}></ProgressCount>)

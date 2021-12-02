@@ -73,8 +73,8 @@ const ProjectDetails = () => {
 
         
 
-            <p className="pe-lg-5 " style={{textAlign:'justify',fontSize:'20px'}}> 
-            <span className="fw-bold fs-4">About:</span>
+            <p className="pe-lg-5" style={{textAlign:'justify',fontSize:'20px'}}> 
+            <span className="fw-bold fs-4 ">About:</span>
              <br/>
             {projectFind?.details}</p>
             
@@ -85,8 +85,9 @@ const ProjectDetails = () => {
            
             </Col>
 
-            <Col className="px-lg-2 px-5">
-            <LanguageUse projectFind={projectFind}></LanguageUse>          
+            <Col className="px-lg-2 px-5 bg-info rounded-3">
+            <LanguageUse projectFind={projectFind}></LanguageUse> 
+            <h5 className="bg-dark text-light  p-3 ">Language Use</h5>         
             </Col>
                 
             </Row>

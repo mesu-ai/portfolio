@@ -3,6 +3,24 @@
         "_id":"1",
         "projectName":"Car House",
         "catagory":"Niche Product Website",
+        "language":[
+            {
+                "name":"Java-Script",
+                "percentage":96.4
+            },
+            {
+                "name":"HTML",
+                "percentage":1.6
+            },
+            {
+                "name":"CSS",
+                "percentage":2
+            }
+        ],
+        
+        "details":"Fully responsive car sales dynamic website. Users can explore the details but after logging in, users can buy or book a new or upcoming car and also give feedback. Admin verified by JWT token can handle everything.",
+        "tecnology":" React JS, React-Router, ES6, Rest API, Material UI, Firebase, Java-Script, HTML, CSS, Canva, Node Js, Express, Firebase, JWT Token, MongoDB.",
+
         "liveSite":"https://car-house-bd.web.app/",
         "frontEndCode":"https://github.com/mesu-ai/car-house",
         "backEndCode":"https://github.com/mesu-ai/car-house-server",
@@ -18,6 +36,23 @@
     {   "_id":"2",
         "projectName":"Tour-Explorer",
         "catagory":"Tourism Related Website",
+        "language":[
+            {
+                "name":"Java-Script",
+                "percentage":92
+            },
+            {
+                "name":"HTML",
+                "percentage":2.7
+            },
+            {
+                "name":"CSS",
+                "percentage":5.3
+            }
+        ],
+        "details":"Dynamic Responsive Tourism Website. Users can view a tour/tour package, after successful login, they can book tour guide information and buy and book new and upcoming tour packages. Admin can manage all systems.",
+        "tecnology":" React Js, React-Router, ES6, Rest API, React-Bootstrap, Firebase, Java-Script, HTML, CSS, Node Js, Express, Firebase, MongoDB.",
+
         "liveSite":"https://tour-explorer.web.app/",
         "frontEndCode":"https://github.com/mesu-ai/tour-explorer",
         "backEndCode":"https://github.com/mesu-ai/tour-explorer-server",
@@ -33,9 +68,27 @@
      {   "_id":"3",
         "projectName":"Heart-Care",
         "catagory":"Health Care/Clinical Website",
+        "language":[
+            {
+                "name":"Java-Script",
+                "percentage":87.5
+            },
+            {
+                "name":"HTML",
+                "percentage":4.7
+            },
+            {
+                "name":"CSS",
+                "percentage":7.8
+            }
+        ],
+
+        "details":"Responsive clinical site. The patient can view the details of our service and after logging in he can make an appointment, make ambulance booking and much more.",
+        "tecnology":" React Js, React-Router, ES6, Rest API, React-Bootstrap, Firebase, Java-Script, HTML, CSS.",
+
         "liveSite":"https://heart-care-bd.web.app/",
-        "frontEndCode":"https://github.com/mesu-ai/car-house",
-        "backEndCode":"https://github.com/mesu-ai/car-house-server",
+        "frontEndCode":"https://github.com/mesu-ai/heart-care",
+        "backEndCode":"https://github.com/mesu-ai/heart-care",
         "cover_img": "https://i.ibb.co/v3GRgJx/heartcarecover.png",
         "picture": [
             {"img1":"https://i.ibb.co/vhhfpjr/heartcare1.png"} ,

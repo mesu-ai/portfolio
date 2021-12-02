@@ -2,11 +2,11 @@ import React from 'react';
 import ProgressBar from "@ramonak/react-progress-bar";
 
 const ProgressCount = ({item}) => {
-    const {courseName,percentage}=item;
+    const {name,percentage}=item;
     
     return (
         <div className="ms-2">
-            <h6 className="fw-bold">{courseName}</h6>
+            <h6 className="fw-bold text-start">{name}</h6>
             <ProgressBar  completed={percentage} maxCompleted={100} />
             
         </div>

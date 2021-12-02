@@ -6,19 +6,19 @@ import ProgressCount from './ProgressCount';
 const progressItems=[
     
     {
-        'courseName':'Java-Script',
+        'name':'Java-Script',
         'percentage':80
     },
     {
-        'courseName':'HTML',
+        'name':'HTML',
         'percentage':85
     },
     {
-        'courseName':'CSS',
+        'name':'CSS',
         'percentage':90
     },
     {
-        'courseName':'Database',
+        'name':'Database',
         'percentage':80
     },
 ]

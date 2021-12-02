@@ -1,9 +1,11 @@
 import React from 'react';
 import '../Projects.css';
-import { Container } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import useProjects from '../../../hooks/useProjects';
 import ProjectSlider from '../projectSlider/ProjectSlider';
+import LanguageUse from '../languageUse/LanguageUse';
+import { HashLink } from 'react-router-hash-link';
 
 const ProjectDetails = () => {
 
@@ -45,20 +47,55 @@ const ProjectDetails = () => {
       
     return (
 
-        <div style={{}}>
+        <div >
            <ProjectSlider projectFind={projectFind} ></ProjectSlider>
            
         <Container>
-            <div className="py-3 d-flex flex-lg-row flex-md-row flex-column justify-content-center ">
-                <a href={projectFind?.liveSite} target="_blank" rel="noopener noreferrer">
-                <button className="btn fw-bold btn-outline-dark custom-btn px-3 mx-3 "><i className="fab fa-ioxhost me-2"></i>Live Site</button></a>
-                <button className="btn fw-bold  btn-outline-dark custom-btn px-3 mx-3 my-3 my-lg-0 my-md-0"><i className="fab fa-github me-2"></i> Front-End Code</button>
-                <button className="btn fw-bold btn-outline-dark custom-btn px-3 mx-3"><i className="fab fa-github me-2"></i> Back-End Code</button>
+            <div className="py-3 d-flex flex-lg-row flex-md-row flex-column justify-content-center bg-info">
+                
+               <a className="btn fw-bold btn-outline-dark custom-btn px-3 mx-3" href={projectFind?.liveSite} target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-ioxhost me-2"></i>Live Site</a>
+
+                <a className="btn fw-bold  btn-outline-dark custom-btn px-3 mx-3 my-3 my-lg-0 my-md-0" as={HashLink} href={projectFind?.frontEndCode} target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-github me-2"></i> Front-End Code</a>
+
+                <a className="btn fw-bold btn-outline-dark custom-btn px-3 mx-3" href={projectFind?.frontEndCode} target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-github me-2"></i> Back-End Code</a>
+            </div>
+            </Container>
+            
+
+            <div style={{minHeight:'100vh',maxHeight:'auto',backgroundColor:'#f7f7f7' }} className="py-5"  >
+            
+            <Container>
+            <Row className="d-flex flex-lg-row flex-column-reverse  row-cols-lg-2 row-cols-1 py-5 ">
+            <Col className="text-start mt-lg-0 mt-5 px-lg-2 px-5">
+
+        
+
+            <p className="pe-lg-5 " style={{textAlign:'justify',fontSize:'20px'}}> 
+            <span className="fw-bold fs-4">About:</span>
+             <br/>
+            {projectFind?.details}</p>
+            
+            <h5 className="pe-lg-5" style={{textAlign:'justify'}}> 
+            <span className="fw-bold fs-4">Tecnology Use:</span> 
+            <br /> 
+            {projectFind?.tecnology}</h5>
+           
+            </Col>
+            
+
+
+
+            <Col className="px-lg-2 px-5">
+            <LanguageUse projectFind={projectFind}></LanguageUse>          
+            </Col>
+                
+            </Row>
+            </Container>
             </div>
            
-            
-            
-        </Container>
         </div>
     );
 };

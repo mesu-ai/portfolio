@@ -12,6 +12,7 @@ import Footer from './pages/footer/Footer';
 import Blog from './pages/blog/Blog';
 import Login from './pages/login/Login';
 import Services from './pages/services/Services';
+import ProjectDetails from './pages/projects/projectDetails/ProjectDetails';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path='/home' element={<Home/>}></Route>
         <Route path='/service' element={<Services/>}></Route>
         <Route path='/project' element={<Projects/>}></Route>
+        <Route path='/projectdetails/:id' element={<ProjectDetails/>}></Route>
         <Route path='/blog' element={<Blog/>}></Route>
         <Route path='/contact' element={<Contact/>}></Route>
         <Route path='/login' element={<Login/>}></Route>

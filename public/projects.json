@@ -1,0 +1,47 @@
+[
+    {   
+        "_id":"1",
+        "projectName":"Car House",
+        "catagory":"Niche Product Website",
+        "liveSite":"https://car-house-bd.web.app/",
+        "frontEndCode":"https://github.com/mesu-ai/car-house",
+        "backEndCode":"https://github.com/mesu-ai/car-house-server",
+        "cover_img": "https://i.ibb.co/pxqhYqK/car1.png",
+        "picture": [
+            {"img1":"https://i.ibb.co/VgbZC1d/car1.png"} ,
+            {"img2":"https://i.ibb.co/PQ8JFrh/car2.png"},
+            {"img3":"https://i.ibb.co/T442YBR/car3.png"}
+        ]
+
+     },
+
+    {   "_id":"2",
+        "projectName":"Tour-Explorer",
+        "catagory":"Tourism Related Website",
+        "liveSite":"https://tour-explorer.web.app/",
+        "frontEndCode":"https://github.com/mesu-ai/tour-explorer",
+        "backEndCode":"https://github.com/mesu-ai/tour-explorer-server",
+        "cover_img": "https://i.ibb.co/V2nfNCm/tourcover.png",
+        "picture": [
+            {"img1":"https://i.ibb.co/WFVDVdp/tour1.png"} ,
+            {"img2":"https://i.ibb.co/z5NNsvG/tour2.png"},
+            {"img3":"https://i.ibb.co/M8Qxd0B/tour3.png"}
+        ]
+
+     },
+    
+     {   "_id":"3",
+        "projectName":"Heart-Care",
+        "catagory":"Health Care/Clinical Website",
+        "liveSite":"https://heart-care-bd.web.app/",
+        "frontEndCode":"https://github.com/mesu-ai/car-house",
+        "backEndCode":"https://github.com/mesu-ai/car-house-server",
+        "cover_img": "https://i.ibb.co/v3GRgJx/heartcarecover.png",
+        "picture": [
+            {"img1":"https://i.ibb.co/vhhfpjr/heartcare1.png"} ,
+            {"img2":"https://i.ibb.co/zrCP2wV/heartcare2.png"},
+            {"img3":"https://i.ibb.co/X5NPJcJ/heartcare3.png"}
+        ]
+        
+     }
+]

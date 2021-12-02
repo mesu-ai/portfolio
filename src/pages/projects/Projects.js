@@ -1,51 +1,13 @@
 import React from "react";
 import {Container, Row} from "react-bootstrap";
+import useProjects from "../../hooks/useProjects";
 import ProjectCard from "./projectCard/ProjectCard";
 
 
-const projects=[
-    {
-        "projectName":"Car House",
-        "catagory":"Niche Product Website",
-        "liveSite":"https://car-house-bd.web.app/",
-        "frontEndCode":"https://github.com/mesu-ai/car-house",
-        "backEndCode":"https://github.com/mesu-ai/car-house-server",
-        "picture": [
-            {"image1":"https://i.ibb.co/pxqhYqK/car1.png"} ,
-            {"image2":"https://i.ibb.co/hfvtMjS/car2.png"},
-            {"image3":"https://i.ibb.co/YjdSrb7/car3.png"},
-        ]
-
-     },
-    {
-        "projectName":"Car House",
-        "catagory":"Niche Product Website",
-        "liveSite":"https://car-house-bd.web.app/",
-        "frontEndCode":"https://github.com/mesu-ai/car-house",
-        "backEndCode":"https://github.com/mesu-ai/car-house-server",
-        "picture": [
-            {"image1":"https://i.ibb.co/pxqhYqK/car1.png"} ,
-            {"image2":"https://i.ibb.co/hfvtMjS/car2.png"},
-            {"image3":"https://i.ibb.co/YjdSrb7/car3.png"},
-        ]
-
-     },
-    {
-        "projectName":"Car House",
-        "catagory":"Niche Product Website",
-        "liveSite":"https://car-house-bd.web.app/",
-        "frontEndCode":"https://github.com/mesu-ai/car-house",
-        "backEndCode":"https://github.com/mesu-ai/car-house-server",
-        "picture": [
-            {"image1":"https://i.ibb.co/pxqhYqK/car1.png"} ,
-            {"image2":"https://i.ibb.co/hfvtMjS/car2.png"},
-            {"image3":"https://i.ibb.co/YjdSrb7/car3.png"},
-        ]
-
-     },
-]
-
 const Projects = () => {
+  const [projects]=useProjects();
+
+
     return (
         <div style={{backgroundColor:'',minHeight:'100vh',maxHeight:'auto' }} className="my-4 py-5">
             <Container>

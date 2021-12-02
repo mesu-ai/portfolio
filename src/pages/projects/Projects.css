@@ -18,3 +18,18 @@
   .card:hover .card-overlay {
       opacity: 1;
     }
+
+    .caption{
+      
+      background-color: rgba(0, 0, 0, 0.781);
+
+    }
+    .slide-title{
+      padding: 10px;
+     
+    }
+    .slide-catagory{
+      display: inline;
+      background-color: rgba(0, 0, 0, 0.781);
+      padding: 10px;
+    }

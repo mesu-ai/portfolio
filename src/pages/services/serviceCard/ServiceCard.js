@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 
 const ServiceCard = ({service}) => {
-    const {icon,serviceName,sortDetails}= service;
+    const {icon,serviceName}= service;
     return (
         
         <Col>

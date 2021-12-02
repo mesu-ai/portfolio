@@ -31,7 +31,7 @@ const ProjectCard = ({project}) => {
             </Card.Body>
 
             <div className="card-overlay d-flex justify-content-center align-items-center">
-                <button className="btn btn-warning text-black fs-5 fw-bold btn-outline-danger" onClick={()=>handleDetails(_id)}>View More <i className="fas fa-angle-double-right ms-2"></i></button>
+                <button className="btn btn-light fs-5 fw-bold card-btn" onClick={()=>handleDetails(_id)}>View More <i className="fas fa-angle-double-right ms-2"></i></button>
           </div>
          
         </Card>

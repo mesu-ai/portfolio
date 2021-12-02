@@ -1,0 +1,31 @@
+[debug] [2021-12-02T05:03:51.883Z] ----------------------------------------------------------------------
+[debug] [2021-12-02T05:03:51.886Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mesuc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-12-02T05:03:51.887Z] CLI Version:   9.23.0
+[debug] [2021-12-02T05:03:51.887Z] Platform:      win32
+[debug] [2021-12-02T05:03:51.887Z] Node Version:  v14.18.0
+[debug] [2021-12-02T05:03:51.898Z] Time:          Thu Dec 02 2021 11:03:51 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-12-02T05:03:51.899Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-02T05:03:51.997Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-02T05:03:51.997Z] > authorizing via signed-in user (mesu.s.ss@gmail.com)
+[debug] [2021-12-02T05:03:51.997Z] [iam] checking project mesu-portfolio for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-12-02T05:03:52.005Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/mesu-portfolio:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-12-02T05:04:00.614Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 02 Dec 2021 05:03:55 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1017","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-02T05:04:00.617Z] > refreshing access token with scopes: []
+[debug] [2021-12-02T05:04:00.617Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-12-02T05:04:01.028Z] <<< HTTP RESPONSE 200 {"date":"Thu, 02 Dec 2021 05:04:01 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-02T05:04:01.051Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mesu-portfolio [none]
+[debug] [2021-12-02T05:04:02.967Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mesu-portfolio 200
+[debug] [2021-12-02T05:04:02.968Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mesu-portfolio {"projectId":"mesu-portfolio","projectNumber":"172029838977","displayName":"Mesu-Portfolio","name":"projects/mesu-portfolio","resources":{"hostingSite":"mesu-portfolio"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'mesu-portfolio'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-12-02T05:04:02.987Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-12-02T05:04:02.988Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-12-02T05:04:03.356Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Thu, 02 Dec 2021 05:04:03 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-02T05:04:03.379Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/mesu-portfolio/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}

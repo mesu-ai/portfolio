@@ -19,6 +19,12 @@
       opacity: 1;
     }
 
+    .card-btn:hover{
+      background-color: crimson;
+      color: white;
+
+    }
+
     .caption{
       
       background-color: rgba(0, 0, 0, 0.781);

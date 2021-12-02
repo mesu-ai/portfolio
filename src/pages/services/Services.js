@@ -12,7 +12,7 @@ import ServiceCard from './serviceCard/ServiceCard';
 
 const services=[
     {   'icon':webdev,
-        'serviceName':'Coplete Website',
+        'serviceName':'Complete Website',
         'sortDetails':''
     },
     {   'icon':frontend,

@@ -29,7 +29,7 @@ const HomeBanner = () => {
                 <Col className="text-start mt-lg-0 mt-5 px-lg-0 px-4  ">
                     <h5 className="text-secondary ">Hello, I am</h5>
                     <h2 className="fw-bold">Md Ibrahim Adham Mesu</h2>
-                    <h4 className="border-bottom border-top text-secondary py-2 w-50 mt-4">Front-End Developer</h4>
+                    <h4 className="border-bottom border-top text-secondary py-2 w-75 mt-4">Front-End Developer</h4>
                     
                     
                     <p className="mt-4 ">

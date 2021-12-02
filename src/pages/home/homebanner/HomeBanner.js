@@ -31,10 +31,16 @@ const HomeBanner = () => {
                     <h4 className="border-bottom border-top text-secondary py-2 w-50 mt-4">Front-End Developer</h4>
                     
                     
-                    <p className="mt-4 text-secondary">
-                    <i className="bi bi-facebook fs-4 me-4"></i>
-                    <i className="bi bi-github fs-4 me-4"></i>
-                    <i className="bi bi-linkedin fs-4 me-4"></i></p>
+                    <p className="mt-4 ">
+                    <a style={{textDecoration:'none'}} className="text-secondary" href="#a" target="_blank" rel="noopener noreferrer">
+                    <i className="bi bi-facebook fs-4 me-4"></i></a>
+
+                    <a style={{textDecoration:'none'}} href="https://github.com/mesu-ai" className="text-secondary"target="_blank" rel="noopener noreferrer">
+                    <i className="bi bi-github fs-4 me-4"></i></a>
+                    <a style={{textDecoration:'none'}} className="text-secondary" href="https://www.linkedin.com/in/iamesu/" target="_blank" rel="noopener noreferrer">
+                    <i className="bi bi-linkedin fs-4 me-4"></i></a>
+                    
+                    </p>
 
                     <a as={HashLink} target="_blank" href={url} rel="noreferrer">
                     <button style={{fontWeight:'450'}} type="button" className="btn btn-outline-dark border-2 rounded-pill  fs-5 mt-4 px-3"> <i className="bi bi-arrow-down-circle-fill me-2"></i> Download My Resume</button>

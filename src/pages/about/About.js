@@ -3,6 +3,7 @@ import './About.css';
 import { Col, Container, Row } from 'react-bootstrap';
 import AboutInfo from './aboutInfo/AboutInfo';
 import Progress from './progress/Progress';
+import { Link } from 'react-router-dom';
 
 const About = () => {
     return (
@@ -17,7 +18,9 @@ const About = () => {
 
                    <AboutInfo/>
 
+                    <Link to='/contact' >
                     <button style={{fontWeight:'450'}} type="button" className="btn btn-outline-dark border-2 rounded-pill  fs-5 mt-4 px-3">Contract Me <i className="bi bi-arrow-right ms-2"></i> </button>
+                    </Link>
    
 
                 </Col>

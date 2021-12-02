@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router';
 
 
 const ProjectCard = ({project}) => {
-    const {_id,projectName,cover_img}=project;
+    const {_id,projectName,cover_img,details}=project;
     
     //  console.log(project,picture[0]?.img1);
 
@@ -21,14 +21,15 @@ const ProjectCard = ({project}) => {
     return (
         
         <Col>
-    
-        <Card className="h-100 shadow-lg card">
+        <Card className=" h-100 shadow-lg card">
             <Card.Img  variant="top" src={cover_img} height='200px' />
             <Card.Body>
             <Card.Title>{projectName}</Card.Title>
             <Card.Text style={{textAlign:'justify'}}>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit longer.
+                {details}
+                
+                {/* This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit longer. */}
             </Card.Text>
             </Card.Body>
 
@@ -38,6 +39,7 @@ const ProjectCard = ({project}) => {
          
         </Card>
         </Col>
+        
         
     );
 };

@@ -14,7 +14,7 @@ const Projects = () => {
             <h3 className="fw-bold">My Projects</h3>
             <div className="my-5">
             <hr />
-            <Row xs={1} md={2} lg={3} className="g-4 d-flex justify-content-center align-items-center">
+            <Row xs={1} md={2} lg={3} className="g-4">
                 {
                    projects.map(project=><ProjectCard key={Math.random()} project={project}></ProjectCard>)
                 }

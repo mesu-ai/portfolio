@@ -50,19 +50,19 @@ const ProjectDetails = () => {
         <div >
            <ProjectSlider projectFind={projectFind} ></ProjectSlider>
            
-        <Container>
-            <div className="py-3 d-flex flex-lg-row flex-md-row flex-column justify-content-center bg-info">
+        
+            <div className="py-4 d-flex flex-lg-row flex-md-row flex-column justify-content-center bg-dark">
                 
-               <a className="btn fw-bold btn-outline-dark custom-btn px-3 mx-3" href={projectFind?.liveSite} target="_blank" rel="noopener noreferrer">
+               <a className="btn fw-bold btn-outline-dark custom-btn px-3 mx-3 rounded-pill" href={projectFind?.liveSite} target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-ioxhost me-2"></i>Live Site</a>
 
-                <a className="btn fw-bold  btn-outline-dark custom-btn px-3 mx-3 my-3 my-lg-0 my-md-0" as={HashLink} href={projectFind?.frontEndCode} target="_blank" rel="noopener noreferrer">
+                <a className="btn fw-bold  btn-outline-dark custom-btn px-3 mx-3 my-3 my-lg-0 my-md-0 rounded-pill" as={HashLink} href={projectFind?.frontEndCode} target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-github me-2"></i> Front-End Code</a>
 
-                <a className="btn fw-bold btn-outline-dark custom-btn px-3 mx-3" href={projectFind?.frontEndCode} target="_blank" rel="noopener noreferrer">
+                <a className="btn fw-bold btn-outline-dark custom-btn px-3 mx-3 rounded-pill" href={projectFind?.frontEndCode} target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-github me-2"></i> Back-End Code</a>
             </div>
-            </Container>
+            
             
 
             <div style={{minHeight:'100vh',maxHeight:'auto',backgroundColor:'#f7f7f7' }} className="py-5"  >
@@ -84,9 +84,6 @@ const ProjectDetails = () => {
             {projectFind?.tecnology}</h5>
            
             </Col>
-            
-
-
 
             <Col className="px-lg-2 px-5">
             <LanguageUse projectFind={projectFind}></LanguageUse>          

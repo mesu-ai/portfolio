@@ -24,14 +24,14 @@ const ProjectCard = ({project}) => {
             <Card.Img  variant="top" src={cover_img} height='200px' />
             <Card.Body>
             <Card.Title>{projectName}</Card.Title>
-            <Card.Text>
+            <Card.Text style={{textAlign:'justify'}}>
                 This is a longer card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit longer.
             </Card.Text>
             </Card.Body>
 
             <div className="card-overlay d-flex justify-content-center align-items-center">
-                <button onClick={()=>handleDetails(_id)}>Click Me</button>
+                <button className="btn btn-warning text-black fs-5 fw-bold btn-outline-danger" onClick={()=>handleDetails(_id)}>View More <i className="fas fa-angle-double-right ms-2"></i></button>
           </div>
          
         </Card>

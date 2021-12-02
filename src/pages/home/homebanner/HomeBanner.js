@@ -1,7 +1,8 @@
 import React from 'react';
 import './HomeBanner.CSS';
 import { Col, Container, Row } from 'react-bootstrap';
-import coverimg from '../../../images/coverimg.png';
+// import coverimg from '../../../images/coverimg.png';
+import coverimg from '../../../images/mycover.png';
 import { HashLink } from 'react-router-hash-link';
 
 

@@ -24,6 +24,16 @@
       color: white;
 
     }
+    .custom-btn{
+      background-color:black;
+      color: whitesmoke;
+
+    }
+    .custom-btn:hover{
+      background-color:crimson;
+      color: white;
+
+    }
 
     .caption{
       

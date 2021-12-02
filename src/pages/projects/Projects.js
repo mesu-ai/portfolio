@@ -12,11 +12,16 @@ const Projects = () => {
         <div style={{backgroundColor:'',minHeight:'100vh',maxHeight:'auto' }} className="my-4 py-5">
             <Container>
             <h3 className="fw-bold">My Projects</h3>
-            <Row xs={1} md={2} lg={3} className="g-4 d-flex justify-content-center align-items-center my-5">
+            <div className="my-5">
+            <hr />
+            <Row xs={1} md={2} lg={3} className="g-4 d-flex justify-content-center align-items-center">
                 {
                    projects.map(project=><ProjectCard key={Math.random()} project={project}></ProjectCard>)
                 }
             </Row>
+            <hr />
+
+            </div>
             </Container>
             
         </div>

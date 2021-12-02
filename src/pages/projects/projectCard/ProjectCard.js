@@ -19,7 +19,9 @@ const ProjectCard = ({project}) => {
 
 
     return (
+        
         <Col>
+    
         <Card className="h-100 shadow-lg card">
             <Card.Img  variant="top" src={cover_img} height='200px' />
             <Card.Body>

@@ -1,21 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './HomeBanner.CSS';
 import { Col, Container, Row } from 'react-bootstrap';
 // import coverimg from '../../../images/coverimg.png';
 import coverimg from '../../../images/mycover.png';
 import { HashLink } from 'react-router-hash-link';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 
 
 const HomeBanner = () => {
+    useEffect(()=>{
+        AOS.init({
+            
+        });
+        
+    },[]);
+    
     
     const url='https://drive.google.com/file/d/1-jK2xva-ZGNkzgza7FO4Lrh3CPX5Vkss/view?usp=sharing';
 
     
-
-
-
 
     return (
         
@@ -26,7 +32,7 @@ const HomeBanner = () => {
 
             <Row className="flex flex-lg-row flex-column-reverse justify-content-center align-items-center row-cols-lg-2 row-cols-1 py-5 ">
                 
-                <Col className="text-start mt-lg-0 mt-5 px-lg-0 px-4  ">
+                <Col data-aos="fade-right" className="text-start mt-lg-0 mt-5 px-lg-0 px-4  ">
                     <h5 className="text-secondary ">Hello, I am</h5>
                     <h2 className="fw-bold">Md Ibrahim Adham Mesu</h2>
                     <h4 className="border-bottom border-top text-secondary py-2 w-75 mt-4">Front-End Developer</h4>

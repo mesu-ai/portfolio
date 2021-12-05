@@ -10,8 +10,8 @@ const Footer = () => {
 
         </Container>
         
-        <div  className="py-4 footer-container text-white bg-secondary">
-            <p>&copy; 2021 || All Right Served By Md Ibrahim Adham Mesu</p>
+        <div  className="py-4 footer-container text-white">
+            <p>Copyright &copy; 2021 || All Right Served By Md Ibrahim Adham Mesu</p>
             
             <p className="mt-4 ">
                     <a style={{textDecoration:'none'}} className="text-primary" href="#a" target="_blank" rel="noopener noreferrer">

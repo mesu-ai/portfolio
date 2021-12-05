@@ -1,12 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Card, Col } from 'react-bootstrap';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const ServiceCard = ({service}) => {
+    useEffect(()=>{
+        AOS.init({
+            
+        });
+        
+    },[]);
+
+
     const {icon,serviceName}= service;
     return (
         
         <Col>
-            <Card className="h-100 p-3 shadow-lg ">
+            <Card data-aos="zoom-in-up" className="h-100 p-3 shadow-lg ">
                 <Card.Img  variant="top" src={icon}  height="100" />
                 <Card.Body>
                 <Card.Title className="text-capitalize fw-bold">{serviceName}</Card.Title>

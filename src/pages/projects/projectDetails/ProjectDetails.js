@@ -74,20 +74,25 @@ const ProjectDetails = () => {
         
 
             <p className="pe-lg-5" style={{textAlign:'justify',fontSize:'20px'}}> 
-            <span className="fw-bold fs-4 ">About:</span>
+            <span className="fw-bold fs-5 ">About:</span>
              <br/>
             {projectFind?.details}</p>
             
             <h5 className="pe-lg-5" style={{textAlign:'justify'}}> 
-            <span className="fw-bold fs-4">Tecnology Use:</span> 
+            <span className="fw-bold fs-5">Tecnology Use:</span> 
             <br /> 
-            {projectFind?.tecnology}</h5>
+            <strong className="">
+            {projectFind?.tecnology}
+            </strong>
+
+            </h5>
+            
            
             </Col>
 
             <Col className="px-lg-2 px-5 bg-info rounded-3">
             <LanguageUse projectFind={projectFind}></LanguageUse> 
-            <h5 className="bg-dark text-light  p-3 ">Language Use</h5>         
+                     
             </Col>
                 
             </Row>

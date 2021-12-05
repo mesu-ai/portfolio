@@ -7,7 +7,7 @@ const LanguageUse = ({projectFind}) => {
     if(projectFind !=null){
 
       var  projectLanguages=projectFind?.language;
-      console.log(projectLanguages);
+    //   console.log(projectLanguages);
 
     }
     
@@ -20,6 +20,8 @@ const LanguageUse = ({projectFind}) => {
                 projectLanguages.map(item=><ProgressCount item={item} key={Math.random()}></ProgressCount>)
 
             }
+            
+            <h5 className=" text-light mt-3 p-2 rounded-pill  ">Language Use</h5>
             
         </div>
     );

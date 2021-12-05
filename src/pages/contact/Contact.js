@@ -1,15 +1,24 @@
 
 import Button from '@restart/ui/esm/Button';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import emailjs from 'emailjs-com';
 import { Alert, Col, Container, FloatingLabel, Form, Row, Spinner } from 'react-bootstrap';
 import './Contact.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Contact = () => {
+
     const [show, setShow] = useState(false);
     const [isLoading,setLoading] = useState(false);
     
+    useEffect(()=>{
+        AOS.init({
+            
+        });
+        
+    },[]);
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -53,7 +62,7 @@ const Contact = () => {
 
         <div className="border border-2 border-dark pt-4 pb-5">
         <h3 className="fw-bold mt-2 mb-5">Contact Me</h3>
-        <Form className="px-5 " onSubmit={sendEmail}>
+        <Form data-aos="fade-up" className="px-5 " onSubmit={sendEmail}>
        
         <Row className="mb-3 text-start row-cols-1 row-cols-md-2 row-cols-lg-2 ">
         <Form.Group as={Col} controlId="formGridName">

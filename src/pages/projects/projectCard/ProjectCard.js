@@ -1,11 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../Projects.css';
 import { Card, Col} from 'react-bootstrap';
 import { useNavigate } from 'react-router';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const ProjectCard = ({project}) => {
-    const {_id,projectName,cover_img,details}=project;
+    useEffect(()=>{
+        AOS.init({
+            
+        });
+        
+    },[]);
+    const {_id,projectName,cover_img,catagory}=project;
     
     //  console.log(project,picture[0]?.img1);
 
@@ -20,13 +28,14 @@ const ProjectCard = ({project}) => {
 
     return (
         
-        <Col>
-        <Card className=" h-100 shadow-lg card">
+        <Col >
+        
+        <Card  data-aos="zoom-in-right"  className=" h-100 shadow-lg card">
             <Card.Img  variant="top" src={cover_img} height='200px' />
             <Card.Body>
             <Card.Title>{projectName}</Card.Title>
-            <Card.Text style={{textAlign:'justify'}}>
-                {details}
+            <Card.Text style={{}} className="fw-bold text-info fs-5">
+                {catagory}
                 
                 {/* This is a longer card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit longer. */}

@@ -5,22 +5,49 @@ import ProgressCount from './ProgressCount';
 
 const progressItems=[
     
+    
     {
-        'name':'Java-Script',
+        'name':'React Js',
+        'percentage':85
+    },
+    {
+        'name':'MongoDB',
         'percentage':80
     },
     {
-        'name':'HTML',
+        'name':'Node Js',
+        'percentage':80
+    },
+    // {
+    //     'name':'Express Js',
+    //     'percentage':80
+    // },
+    {
+        'name':'Java-Script',
         'percentage':85
+    },
+
+    {
+        'name':'Material-UI',
+        'percentage':85
+    },
+    {
+        'name':'Bootstrap',
+        'percentage':95
+    },
+    {
+        'name':'Tailwind',
+        'percentage':90
     },
     {
         'name':'CSS',
         'percentage':90
     },
     {
-        'name':'Database',
-        'percentage':80
-    },
+        'name':'HTML',
+        'percentage':90
+    }
+    
 ]
 
 const Progress = () => {

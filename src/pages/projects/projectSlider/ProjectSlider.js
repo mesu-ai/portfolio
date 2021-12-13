@@ -22,7 +22,7 @@ const ProjectSlider = ({projectFind}) => {
     
     
     return (
-        <Carousel >
+        <Carousel className='container border border-dark my-3 border-2'>
         <Carousel.Item interval={500}>
         <img
         className="d-block w-100"

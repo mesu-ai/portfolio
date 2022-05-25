@@ -1,5 +1,5 @@
 import React from "react";
-import {Container, Row} from "react-bootstrap";
+import {Button, Container, Row} from "react-bootstrap";
 import useProjects from "../../hooks/useProjects";
 import ProjectCard from "./projectCard/ProjectCard";
 
@@ -13,6 +13,7 @@ const Projects = () => {
             <Container>
             <h3 className="fw-bold">My Projects</h3>
             <div className="my-5">
+             <p className="text-start fs-5">I have worked on many projects. See some of my specific work. </p>
             <hr />
             <Row xs={1} md={2} lg={3} className="g-4">
                 {
@@ -20,6 +21,9 @@ const Projects = () => {
                 }
             </Row>
             <hr />
+            <div className="text-start">
+            <Button className="MoreProjectBtn btn-outline-warning">Click For More<i className="bi bi-arrow-right ms-1 fw-bold"></i></Button>
+            </div>
 
             </div>
             </Container>

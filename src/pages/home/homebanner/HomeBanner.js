@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import './HomeBanner.CSS';
+import './HomeBanner.css';
 import { Col, Container, Row } from 'react-bootstrap';
 // import coverimg from '../../../images/coverimg.png';
 import coverimg from '../../../images/mycover.png';
@@ -19,7 +19,7 @@ const HomeBanner = () => {
     },[]);
     
     
-    const url='https://drive.google.com/file/d/1-jK2xva-ZGNkzgza7FO4Lrh3CPX5Vkss/view?usp=sharing';
+    const url='https://drive.google.com/file/d/1NWBU1kKEAPgmxRDviUzkCw7zlD8Rgcps/view?usp=sharing';
 
     
 
@@ -57,7 +57,7 @@ const HomeBanner = () => {
 
                 </Col>
                 <Col>
-                <img className="img-fluid" src={coverimg} alt="" width='100%' />
+                <img className="img-fluid myImg" src={coverimg} alt="" width='100%' />
 
                 </Col>
 

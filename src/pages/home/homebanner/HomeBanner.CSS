@@ -1,1 +1,7 @@
 
+.myImg{
+    border-radius: 50% 50% 50% 50%;
+    border-bottom:  50px solid rgb(156, 191, 221);
+    border-top: 10px solid rgb(180, 200, 218);
+    
+}

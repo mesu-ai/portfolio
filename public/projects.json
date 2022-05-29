@@ -1,6 +1,39 @@
 [
     {   
         "_id":"1",
+        "projectName":"E-shop",
+        "catagory":"E-commerce Website",
+        "language":[
+            {
+                "name":"Java-Script",
+                "percentage":96.4
+            },
+            {
+                "name":"HTML",
+                "percentage":1.6
+            },
+            {
+                "name":"CSS",
+                "percentage":2
+            }
+        ],
+        
+        "details":"Fully responsive & dynamic e-commerce website. It has many functionalities.Users can browse & add product to cart & also see details but after logging in, users can order product. Here, Admin is verified by a JWT token who can handle everything.",
+        "tecnology":"React JS, React-Router, ES6, Rest API, Material UI, Firebase, Java-Script, HTML, CSS, Canva, Node Js, Express, Firebase, JWT Token, MongoDB.",
+
+        "liveSite":"https://e-shop-bangla.web.app/",
+        "frontEndCode":"https://github.com/mesu-ai/eshop",
+        "backEndCode":"https://github.com/mesu-ai/eshop-server",
+        "cover_img": "https://i.ibb.co/VwqWp8f/eshop-cover.png",
+        "picture": [
+            {"img1":"https://i.ibb.co/gdZThV9/eshop-1.png"} ,
+            {"img2":"https://i.ibb.co/KKpNcMz/eshop-2.png"},
+            {"img3":"https://i.ibb.co/xjyWWPv/eshop-3.png"}
+        ]
+
+     },
+    {   
+        "_id":"2",
         "projectName":"Car House",
         "catagory":"Niche Product Website",
         "language":[
@@ -33,7 +66,7 @@
 
      },
 
-    {   "_id":"2",
+    {   "_id":"3",
         "projectName":"Tour-Explorer",
         "catagory":"Tourism Related Website",
         "language":[
@@ -65,7 +98,7 @@
 
      },
     
-     {   "_id":"3",
+     {   "_id":"4",
         "projectName":"Heart-Care",
         "catagory":"Health Care/Clinical Website",
         "language":[

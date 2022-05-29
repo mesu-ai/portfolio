@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Projects.css';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Card, Col, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import useProjects from '../../../hooks/useProjects';
 import ProjectSlider from '../projectSlider/ProjectSlider';
@@ -90,8 +90,15 @@ const ProjectDetails = () => {
            
             </Col>
 
-            <Col className="px-lg-2 px-5 bg-info rounded-3">
+
+            <Col>
+            <Card className='rounded-3'>
+            <h6 className='bg-warning p-2'>GitHub Languages Use Details</h6>
+            <div className='px-lg-2 px-5'>
             <LanguageUse projectFind={projectFind}></LanguageUse> 
+            </div>
+            </Card>
+            
                      
             </Col>
                 

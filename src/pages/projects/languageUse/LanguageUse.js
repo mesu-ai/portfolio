@@ -21,7 +21,7 @@ const LanguageUse = ({projectFind}) => {
 
             }
             
-            <h5 className=" text-light mt-3 p-2 rounded-pill  ">Language Use</h5>
+            
             
         </div>
     );

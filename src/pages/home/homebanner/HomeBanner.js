@@ -36,17 +36,17 @@ const HomeBanner = () => {
                 
                     <h5 className="text-secondary ">Hello, I am</h5>
                     <h2 className="fw-bold">Md Ibrahim Adham Mesu</h2>
-                    <h4 className="border-bottom border-top text-secondary py-2 w-75 mt-4">Front-End Developer</h4>
+                    <h4 className="border-bottom border-top border-secondary text-primary py-2 w-75 mt-4">Front-End Developer</h4>
                     
                     
                     <p className="mt-4 ">
-                    <a style={{textDecoration:'none'}} className="text-secondary" href="#a" target="_blank" rel="noopener noreferrer">
-                    <i className="bi bi-facebook fs-4 me-4"></i></a>
+                    <a style={{textDecoration:'none'}}  className="text-secondary border border-secondary rounded-circle p-2  me-4" href="#a" target="_blank" rel="noopener noreferrer">
+                    <i className="bi bi-facebook fs-4 "></i></a>
 
-                    <a style={{textDecoration:'none'}} href="https://github.com/mesu-ai" className="text-secondary"target="_blank" rel="noopener noreferrer">
-                    <i className="bi bi-github fs-4 me-4"></i></a>
-                    <a style={{textDecoration:'none'}} className="text-secondary" href="https://www.linkedin.com/in/iamesu/" target="_blank" rel="noopener noreferrer">
-                    <i className="bi bi-linkedin fs-4 me-4"></i></a>
+                    <a style={{textDecoration:'none'}} href="https://github.com/mesu-ai" className="text-secondary border border-secondary rounded-circle p-2  me-4"target="_blank" rel="noopener noreferrer">
+                    <i className="bi bi-github fs-4"></i></a>
+                    <a style={{textDecoration:'none'}} className="text-secondary border border-secondary rounded-circle p-2 me-4" href="https://www.linkedin.com/in/iamesu/" target="_blank" rel="noopener noreferrer">
+                    <i className="bi bi-linkedin fs-4"></i></a>
                     
                     </p>
 
@@ -58,7 +58,7 @@ const HomeBanner = () => {
 
                 </Col>
                 <Col>
-                    <img className="img-fluid myImg w-75" src={coverimg} alt="cover_photo"  />
+                    <img className="img-fluid myImg w-100 shadow-lg" src={coverimg} alt="cover_photo"  />
 
                 </Col>
 

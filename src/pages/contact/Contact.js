@@ -60,7 +60,7 @@ const Contact = () => {
         }
         </div>
 
-        <div className="border border-2 border-dark pt-4 pb-5">
+        <div className="border border-2 border-dark pt-4 pb-5" style={{borderRadius:'12px'}}>
         <h3 className="fw-bold mt-2 mb-5">Contact Me</h3>
         <Form data-aos="fade-up" className="px-5 " onSubmit={sendEmail}>
        

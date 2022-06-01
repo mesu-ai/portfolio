@@ -3,6 +3,7 @@ import About from '../about/About';
 import Contact from '../contact/Contact';
 import Projects from '../projects/Projects';
 import Services from '../services/Services';
+import DevInfo from './developerinfo/DevInfo';
 import HomeBanner from './homebanner/HomeBanner';
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
         <div>
             
             <HomeBanner/>
+            <DevInfo/>
             <About/>
             <Services/>
             <Projects/>

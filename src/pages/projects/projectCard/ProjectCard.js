@@ -30,7 +30,7 @@ const ProjectCard = ({project}) => {
         
         <Col >
         
-        <Card data-aos="zoom-in-right"  className=" h-100 shadow-lg card">
+        <Card data-aos="zoom-in-right"  className=" h-100 shadow-lg card p-2" style={{borderRadius:'12px'}}>
             <Card.Img  variant="top" src={cover_img} height='200px' />
             <Card.Body>
             <Card.Title>{projectName}</Card.Title>
@@ -42,7 +42,7 @@ const ProjectCard = ({project}) => {
             </Card.Text>
             </Card.Body>
 
-            <div className="card-overlay d-flex justify-content-center align-items-center">
+            <div className="card-overlay d-flex justify-content-center align-items-center" style={{borderRadius:'12px'}}>
                 <button className="btn btn-light fs-5 fw-bold card-btn" onClick={()=>handleDetails(_id)}>View More <i className="fas fa-angle-double-right ms-2"></i></button>
           </div>
          

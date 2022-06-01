@@ -24,7 +24,8 @@
         "liveSite":"https://e-shop-bangla.web.app/",
         "frontEndCode":"https://github.com/mesu-ai/eshop",
         "backEndCode":"https://github.com/mesu-ai/eshop-server",
-        "cover_img": "https://i.ibb.co/VwqWp8f/eshop-cover.png",
+        "cover_img": "https://i.ibb.co/LkjJC76/eshop-cover1.png",
+        "cover_img1": "https://i.ibb.co/VwqWp8f/eshop-cover.png",
         "picture": [
             {"img1":"https://i.ibb.co/gdZThV9/eshop-1.png"} ,
             {"img2":"https://i.ibb.co/KKpNcMz/eshop-2.png"},

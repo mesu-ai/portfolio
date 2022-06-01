@@ -11,9 +11,9 @@ const Footer = () => {
 
         </Container>
         
-        <div  className="pt-5  footer-container ">
+        <div  className="pt-5 pb-3  footer-container ">
             <Container className='d-md-flex justify-content-md-between align-items-center'>
-            <p> &copy; 2021 || All Right Served By Md Ibrahim Adham Mesu</p>
+            <p className='mb-0'> &copy; 2021 || All Right Served By Md Ibrahim Adham Mesu</p>
             
             <p className="mt-4 ">
                     <a style={{textDecoration:'none'}} className="text-primary" href="#a" target="_blank" rel="noopener noreferrer">

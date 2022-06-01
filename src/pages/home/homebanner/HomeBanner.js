@@ -58,7 +58,7 @@ const HomeBanner = () => {
 
                 </Col>
                 <Col>
-                    <img className="img-fluid myImg" src={coverimg} alt="cover_photo"  />
+                    <img className="img-fluid myImg w-75" src={coverimg} alt="cover_photo"  />
 
                 </Col>
 

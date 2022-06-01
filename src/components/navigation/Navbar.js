@@ -7,7 +7,7 @@ import logo from '../../images/logo.png';
 
 const Navigation = () => {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="" style={{backgroundColor:'rgba(255, 255, 255, 0.856)'}} variant="light" sticky="top">
+        <Navbar collapseOnSelect expand="lg" bg="" style={{backgroundColor:'rgba(240, 248, 255, 0.762)'}} variant="light" sticky="top">
         <Container>
         <Navbar.Brand href="#home">
       <img

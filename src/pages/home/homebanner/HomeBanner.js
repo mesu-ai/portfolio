@@ -33,7 +33,7 @@ const HomeBanner = () => {
             <Row className="flex flex-lg-row flex-column-reverse justify-content-center align-items-center row-cols-lg-2 row-cols-1 py-5 ">
                 
                 <Col data-aos="fade-right" className="text-start mt-lg-0 mt-5 px-lg-0 px-4  ">
-                 {/* <Card > */}
+                
                     <h5 className="text-secondary ">Hello, I am</h5>
                     <h2 className="fw-bold">Md Ibrahim Adham Mesu</h2>
                     <h4 className="border-bottom border-top text-secondary py-2 w-75 mt-4">Front-End Developer</h4>
@@ -54,11 +54,11 @@ const HomeBanner = () => {
                     <button style={{fontWeight:'450'}} type="button" className="btn btn-outline-dark border-2 rounded-pill  fs-5 mt-4 px-3"> <i className="bi bi-arrow-down-circle-fill me-2"></i> Download My Resume</button>
                     </a>
 
-                {/* </Card> */}
+               
 
                 </Col>
                 <Col>
-                <img className="img-fluid myImg" src={coverimg} alt="" width='100%' />
+                    <img className="img-fluid myImg" src={coverimg} alt="cover_photo"  />
 
                 </Col>
 

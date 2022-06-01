@@ -14,7 +14,7 @@ const About = () => {
 
             <Row className="d-flex flex-lg-row flex-column-reverse  row-cols-lg-2 row-cols-1 py-5">
                 
-                <Col className="text-start mt-lg-0 mt-5 px-lg-2 px-4">
+                <Col className=" text-start mt-lg-0 mt-5 px-lg-2 px-4">
 
                    <AboutInfo/>
 
@@ -25,7 +25,7 @@ const About = () => {
 
                 </Col>
                 
-                <Col className="">
+                <Col className="overflow-hidden">
                 
                 <Progress/>
 

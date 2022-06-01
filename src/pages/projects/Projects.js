@@ -21,8 +21,9 @@ const Projects = () => {
             <hr />
             <Row xs={1} md={2} lg={3} className="g-4">
                 
-                { location.pathname==='/home' ? 
-                   projects.slice(0,3).map(project=><ProjectCard key={Math.random()} project={project}></ProjectCard>)
+                { location.pathname==='/' || location.pathname==='/home' ? 
+                   projects.slice(0,3).map(project=><ProjectCard key={Math.random()} project={project}></ProjectCard>) 
+
                    :
                    
                     projects.map(project=><ProjectCard key={Math.random()} project={project}></ProjectCard>)
@@ -32,11 +33,11 @@ const Projects = () => {
             <hr />
             <div className="text-start">
 
-            {location.pathname==='/home' && 
+            {location.pathname==='/home' || location.pathname==='/' ? 
 
             <Link to='/project'>
             <Button className="MoreProjectBtn btn-outline-warning">Click For More<i className="bi bi-arrow-right ms-1 fw-bold"></i></Button>
-            </Link>
+            </Link>: <></>
 
             }
 

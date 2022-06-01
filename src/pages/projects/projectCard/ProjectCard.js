@@ -30,7 +30,7 @@ const ProjectCard = ({project}) => {
         
         <Col >
         
-        <Card  data-aos="zoom-in-right"  className=" h-100 shadow-lg card">
+        <Card data-aos="zoom-in-right"  className=" h-100 shadow-lg card">
             <Card.Img  variant="top" src={cover_img} height='200px' />
             <Card.Body>
             <Card.Title>{projectName}</Card.Title>

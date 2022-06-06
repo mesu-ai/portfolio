@@ -31,7 +31,7 @@ const DevCard = ({info}) => {
                 <div>
                   <div>
                     {info.icons.slice(0,3).map(icon=>
-                    <img src={icon.icon1} alt='' width={50}/>
+                    <img src={icon.icon1} alt='' width={55}/>
                     )} 
 
                   </div>

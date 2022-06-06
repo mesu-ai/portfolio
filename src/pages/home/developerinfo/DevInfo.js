@@ -5,23 +5,41 @@ import exp from '../../../images/devinfo/person-hiking-solid.svg'
 import tp from '../../../images/devinfo/list-check-solid.svg'
 import skill from '../../../images/devinfo/code-square.svg'
 
+import react from '../../../images/icons/react.png';
+import redux from '../../../images/icons/redux.png';
+import node from '../../../images/icons/node.png';
+import jwt from '../../../images/icons/jwt.png';
+import js from '../../../images/icons/js.png';
+
 const devinfos=[
     {
         'id':1,
         'img':tp,
         'title':'Total Projects',
-        'serviceInfo':'12'
+        'serviceInfo':'20+'
     },
     {
         'id':2,
         'img':skill,
-        'title':'Skills',
-        'serviceInfo':'11',
+        'title':'Tech Skills',
+        // 'serviceInfo':'11',
         'icons':[
             { 
-            'icon1':"fa-brands fa-react",
+            'icon1':react,
             },
-            {'icon1':"bi bi-facebook fs-4"}
+            { 
+            'icon1':redux,
+            },
+            { 
+            'icon1':jwt,
+            },
+            { 
+            'icon1':js,
+            },
+            { 
+            'icon1':node,
+            },
+            
 
         ]
     },

@@ -15,20 +15,33 @@ const DevCard = ({info}) => {
     return (
         <Col>
         <Card data-aos="zoom-in-up" className="h-100 p-3 shadow-lg " style={{borderRadius:'12px',backgroundColor:'white'}}>
-            <Card.Img  variant="top" src={info.img}  height="40" />
+            <Card.Img  variant="top" src={info.img}  height="45" />
             <Card.Body>
             <Card.Title className="text-capitalize fw-bold">{info.title}</Card.Title>
             <Card.Text style={{textAlign:'justify',width:''}} className=" fs-4 fw-bold text-primary d-flex justify-content-center text-center mt-4">
                 
-                <p className='border border-secondary rounded-circle p-4 text-white' style={{background:'#009444',width:'40%'}}> 
+                {info.serviceInfo && 
+                <p className='border border-secondary rounded-circle p-4 text-white mb-0' style={{background:'#009444',width:'42%'}}> 
                  {info.serviceInfo}
                 </p>
+                }
+                
 
                 {info.icons && 
+                <div>
+                  <div>
+                    {info.icons.slice(0,3).map(icon=>
+                    <img src={icon.icon1} alt='' width={50}/>
+                    )} 
 
-                info.icons.map(icon=><>
-                
-                </>)
+                  </div>
+                  <div>
+                    {info.icons.slice(3,5).map(icon=>
+                    <img src={icon.icon1} alt='' width={60}/>
+                    )}
+
+                  </div>
+                </div>
                 
                 }
                 

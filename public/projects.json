@@ -1,134 +1,186 @@
 [
-    {   
-        "_id":"1",
-        "projectName":"E-shop",
-        "catagory":"E-commerce Website",
-        "language":[
+    {
+        "_id": "1",
+        "projectName": "E-shop",
+        "catagory": "E-commerce Website",
+        "language": [
             {
-                "name":"Java-Script",
-                "percentage":96.4
+                "name": "Java-Script",
+                "percentage": 96.4
             },
             {
-                "name":"HTML",
-                "percentage":1.6
+                "name": "HTML",
+                "percentage": 1.6
             },
             {
-                "name":"CSS",
-                "percentage":2
+                "name": "CSS",
+                "percentage": 2
             }
         ],
-        
-        "details":"Fully responsive & dynamic e-commerce website. It has many functionalities.Users can browse & add product to cart & also see details but after logging in, users can order product. Here, Admin is verified by a JWT token who can handle everything.",
-        "tecnology":"React JS, React-Router, ES6, Rest API, Material UI, Firebase, Java-Script, HTML, CSS, Canva, Node Js, Express, Firebase, JWT Token, MongoDB.",
-
-        "liveSite":"https://e-shop-bangla.web.app/",
-        "frontEndCode":"https://github.com/mesu-ai/eshop",
-        "backEndCode":"https://github.com/mesu-ai/eshop-server",
+        "details": "Fully responsive & dynamic e-commerce website. It has many functionalities.Users can browse & add product to cart & also see details but after logging in, users can order product. Here, Admin is verified by a JWT token who can handle everything.",
+        "tecnology": "React JS, React-Router, ES6, Rest API, Material UI, Firebase, Java-Script, HTML, CSS, Canva, Node Js, Express, Firebase, JWT Token, MongoDB.",
+        "liveSite": "https://e-shop-bangla.web.app/",
+        "frontEndCode": "https://github.com/mesu-ai/eshop",
+        "backEndCode": "https://github.com/mesu-ai/eshop-server",
         "cover_img": "https://i.ibb.co/LkjJC76/eshop-cover1.png",
         "cover_img1": "https://i.ibb.co/VwqWp8f/eshop-cover.png",
         "picture": [
-            {"img1":"https://i.ibb.co/gdZThV9/eshop-1.png"} ,
-            {"img2":"https://i.ibb.co/KKpNcMz/eshop-2.png"},
-            {"img3":"https://i.ibb.co/xjyWWPv/eshop-3.png"}
+            {
+                "img1": "https://i.ibb.co/gdZThV9/eshop-1.png"
+            },
+            {
+                "img2": "https://i.ibb.co/KKpNcMz/eshop-2.png"
+            },
+            {
+                "img3": "https://i.ibb.co/xjyWWPv/eshop-3.png"
+            }
         ]
-
-     },
-    {   
-        "_id":"2",
-        "projectName":"Car House",
-        "catagory":"Niche Product Website",
-        "language":[
+    },
+    {
+        "_id": "2",
+        "projectName": "Goh-Landing Page",
+        "catagory": "Landing Page",
+        "language": [
             {
-                "name":"Java-Script",
-                "percentage":96.4
+                "name": "Java-Script",
+                "percentage": 20
             },
             {
-                "name":"HTML",
-                "percentage":1.6
+                "name": "HTML",
+                "percentage": 58.7
             },
             {
-                "name":"CSS",
-                "percentage":2
+                "name": "CSS",
+                "percentage": 31.3
             }
         ],
-        
-        "details":"Fully responsive car sales dynamic website. Users can explore the details but after logging in, users can buy or book a new or upcoming car and also give feedback. Admin verified by JWT token can handle everything.",
-        "tecnology":" React JS, React-Router, ES6, Rest API, Material UI, Firebase, Java-Script, HTML, CSS, Canva, Node Js, Express, Firebase, JWT Token, MongoDB.",
+        "details": "Fully Responsive Goh-app Landing page. It is an EWN BD projects. It's design is implemented by me. The landing page is two language EN and AR",
+        "tecnology": "HTML, CSS, Bootstrap, jquery, javascript.",
+        "liveSite": "https://goh-landing-page.netlify.app/",
+        "frontEndCode": "https://github.com/mesu-ai/Goh-Landing-page",
 
-        "liveSite":"https://car-house-bd.web.app/",
-        "frontEndCode":"https://github.com/mesu-ai/car-house",
-        "backEndCode":"https://github.com/mesu-ai/car-house-server",
+        "cover_img": "https://i.ibb.co/CtQTP4m/Untitled.png",
+        "picture": [
+            {
+                "img1": "https://i.ibb.co/CtQTP4m/Untitled.png"
+            },
+            {
+                "img2": "https://i.ibb.co/6gQ3YRB/lan2.png"
+            },
+            {
+                "img3": "https://i.ibb.co/bRjSsfL/lan3.png"
+            },
+            {
+                "img4": "https://i.ibb.co/bz4h2Ss/lan1.png"
+            }
+        ]
+    },
+    {
+        "_id": "3",
+        "projectName": "Car House",
+        "catagory": "Niche Product Website",
+        "language": [
+            {
+                "name": "Java-Script",
+                "percentage": 96.4
+            },
+            {
+                "name": "HTML",
+                "percentage": 1.6
+            },
+            {
+                "name": "CSS",
+                "percentage": 2
+            }
+        ],
+        "details": "Fully responsive car sales dynamic website. Users can explore the details but after logging in, users can buy or book a new or upcoming car and also give feedback. Admin verified by JWT token can handle everything.",
+        "tecnology": " React JS, React-Router, ES6, Rest API, Material UI, Firebase, Java-Script, HTML, CSS, Canva, Node Js, Express, Firebase, JWT Token, MongoDB.",
+        "liveSite": "https://car-house-bd.web.app/",
+        "frontEndCode": "https://github.com/mesu-ai/car-house",
+        "backEndCode": "https://github.com/mesu-ai/car-house-server",
         "cover_img": "https://i.ibb.co/pxqhYqK/car1.png",
         "picture": [
-            {"img1":"https://i.ibb.co/VgbZC1d/car1.png"} ,
-            {"img2":"https://i.ibb.co/PQ8JFrh/car2.png"},
-            {"img3":"https://i.ibb.co/T442YBR/car3.png"}
+            {
+                "img1": "https://i.ibb.co/VgbZC1d/car1.png"
+            },
+            {
+                "img2": "https://i.ibb.co/PQ8JFrh/car2.png"
+            },
+            {
+                "img3": "https://i.ibb.co/T442YBR/car3.png"
+            }
         ]
-
-     },
-
-    {   "_id":"3",
-        "projectName":"Tour-Explorer",
-        "catagory":"Tourism Related Website",
-        "language":[
+    },
+    {
+        "_id": "4",
+        "projectName": "Tour-Explorer",
+        "catagory": "Tourism Related Website",
+        "language": [
             {
-                "name":"Java-Script",
-                "percentage":88
+                "name": "Java-Script",
+                "percentage": 88
             },
             {
-                "name":"HTML",
-                "percentage":6
+                "name": "HTML",
+                "percentage": 6
             },
             {
-                "name":"CSS",
-                "percentage":6
+                "name": "CSS",
+                "percentage": 6
             }
         ],
-        "details":"Dynamic Responsive Tourism Website. Users can view a tour/tour package, after successful login, they can book tour guide information and buy and book new and upcoming tour packages. Admin can manage all systems.",
-        "tecnology":" React Js, React-Router, ES6, Rest API, React-Bootstrap, Firebase, Java-Script, HTML, CSS, Node Js, Express, Firebase, MongoDB.",
-
-        "liveSite":"https://tour-explorer.web.app/",
-        "frontEndCode":"https://github.com/mesu-ai/tour-explorer",
-        "backEndCode":"https://github.com/mesu-ai/tour-explorer-server",
+        "details": "Dynamic Responsive Tourism Website. Users can view a tour/tour package, after successful login, they can book tour guide information and buy and book new and upcoming tour packages. Admin can manage all systems.",
+        "tecnology": " React Js, React-Router, ES6, Rest API, React-Bootstrap, Firebase, Java-Script, HTML, CSS, Node Js, Express, Firebase, MongoDB.",
+        "liveSite": "https://tour-explorer.web.app/",
+        "frontEndCode": "https://github.com/mesu-ai/tour-explorer",
+        "backEndCode": "https://github.com/mesu-ai/tour-explorer-server",
         "cover_img": "https://i.ibb.co/V2nfNCm/tourcover.png",
         "picture": [
-            {"img1":"https://i.ibb.co/WFVDVdp/tour1.png"} ,
-            {"img2":"https://i.ibb.co/z5NNsvG/tour2.png"},
-            {"img3":"https://i.ibb.co/M8Qxd0B/tour3.png"}
+            {
+                "img1": "https://i.ibb.co/WFVDVdp/tour1.png"
+            },
+            {
+                "img2": "https://i.ibb.co/z5NNsvG/tour2.png"
+            },
+            {
+                "img3": "https://i.ibb.co/M8Qxd0B/tour3.png"
+            }
         ]
-
-     },
-    
-     {   "_id":"4",
-        "projectName":"Heart-Care",
-        "catagory":"Health Care/Clinical Website",
-        "language":[
+    },
+    {
+        "_id": "5",
+        "projectName": "Heart-Care",
+        "catagory": "Health Care/Clinical Website",
+        "language": [
             {
-                "name":"Java-Script",
-                "percentage":87
+                "name": "Java-Script",
+                "percentage": 87
             },
             {
-                "name":"HTML",
-                "percentage":6
+                "name": "HTML",
+                "percentage": 6
             },
             {
-                "name":"CSS",
-                "percentage":7
+                "name": "CSS",
+                "percentage": 7
             }
         ],
-
-        "details":"Responsive clinical site. The patient can view the details of our service and after logging in he can make an appointment, make ambulance booking and much more.",
-        "tecnology":" React Js, React-Router, ES6, Rest API, React-Bootstrap, Firebase, Java-Script, HTML, CSS.",
-
-        "liveSite":"https://heart-care-bd.web.app/",
-        "frontEndCode":"https://github.com/mesu-ai/heart-care",
-        "backEndCode":"https://github.com/mesu-ai/heart-care",
+        "details": "Responsive clinical site. The patient can view the details of our service and after logging in he can make an appointment, make ambulance booking and much more.",
+        "tecnology": " React Js, React-Router, ES6, Rest API, React-Bootstrap, Firebase, Java-Script, HTML, CSS.",
+        "liveSite": "https://heart-care-bd.web.app/",
+        "frontEndCode": "https://github.com/mesu-ai/heart-care",
+        "backEndCode": "https://github.com/mesu-ai/heart-care",
         "cover_img": "https://i.ibb.co/v3GRgJx/heartcarecover.png",
         "picture": [
-            {"img1":"https://i.ibb.co/vhhfpjr/heartcare1.png"} ,
-            {"img2":"https://i.ibb.co/zrCP2wV/heartcare2.png"},
-            {"img3":"https://i.ibb.co/X5NPJcJ/heartcare3.png"}
+            {
+                "img1": "https://i.ibb.co/vhhfpjr/heartcare1.png"
+            },
+            {
+                "img2": "https://i.ibb.co/zrCP2wV/heartcare2.png"
+            },
+            {
+                "img3": "https://i.ibb.co/X5NPJcJ/heartcare3.png"
+            }
         ]
-        
-     }
+    }
 ]

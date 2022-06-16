@@ -9,13 +9,13 @@ const Navigation = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="" style={{backgroundColor:'rgba(240, 248, 255, 0.762)'}} variant="light" sticky="top">
         <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
       <img
         src={logo}
         width="30"
         height="30"
         className="d-inline-block align-top"
-        alt="React Bootstrap logo"
+        alt="mesu_portfolio"
       />
     </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

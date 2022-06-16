@@ -34,11 +34,9 @@ const ProjectCard = ({project}) => {
             <Card.Img  variant="top" src={cover_img} height='200px' />
             <Card.Body>
             <Card.Title>{projectName}</Card.Title>
-            <Card.Text style={{}} className="fw-bold text-info fs-5">
+            <Card.Text style={{}} className="fw-bold text-primary fs-5">
                 {catagory}
                 
-                {/* This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit longer. */}
             </Card.Text>
             </Card.Body>
 

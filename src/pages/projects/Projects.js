@@ -17,7 +17,10 @@ const Projects = () => {
             <Container>
             <h3 className="fw-bold">My Projects</h3>
             <div className="my-5">
-             <p className="text-start fs-5">I have worked on many projects. See some of my specific work. </p>
+             <p className="text-start fs-5" >I have worked on many projects. 
+             <span className="fw-bold" style={{color:'tomato'}}> See some of my specific work.</span>
+             
+              </p>
             <hr />
             <Row xs={1} md={2} lg={3} className="g-4">
                 

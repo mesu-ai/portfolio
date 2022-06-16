@@ -3,17 +3,19 @@ import './Footer.css';
 import { Container } from 'react-bootstrap';
 
 const Footer = () => {
+
+    const year= new Date();
+    
     return (
         <>
         <Container>
-        {/* <hr style={{marginTop:'8px',marginBottom:'8px'}}/>
-        <hr style={{marginTop:'8px',marginBottom:'8px'}}/> */}
+        
 
         </Container>
         
         <div  className="pt-5 pb-3  footer-container ">
             <Container className='d-md-flex justify-content-md-between align-items-center'>
-            <p className='mb-0'> &copy; 2021 || All Right Served By Md Ibrahim Adham Mesu</p>
+            <p className='mb-0'> &copy; {year.getFullYear()} || All Right Served By Md Ibrahim Adham Mesu</p>
             
             <p className="mt-4 ">
                     <a style={{textDecoration:'none'}} className="text-primary" href="#a" target="_blank" rel="noopener noreferrer">

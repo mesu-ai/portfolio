@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Card, Col } from 'react-bootstrap';
+import CountUp from 'react-countup';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -22,7 +23,8 @@ const DevCard = ({info}) => {
                 
                 {info.serviceInfo && 
                 <p className='border border-secondary rounded-circle p-4 text-white mb-0' style={{background:'#009444',width:'42%'}}> 
-                 {info.serviceInfo}
+                <CountUp duration={1} end={info?.serviceInfo} />+
+                 
                 </p>
                 }
                 

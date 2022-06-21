@@ -7,7 +7,7 @@ const ProjectSlider = ({projectFind}) => {
     
    
     if(projectFind != null){
-        console.log(projectFind);
+        // console.log(projectFind);
         // var { projectName,catagory}=projectFind;
 
     }
@@ -22,7 +22,7 @@ const ProjectSlider = ({projectFind}) => {
     
     
     return (
-        <Carousel className='container border border-dark my-3 border-2'>
+        <Carousel style={{borderRadius:'12px'}} className='container border border-warning my-5 border-3'>
         <Carousel.Item interval={500}>
         <img
         className="d-block w-100"

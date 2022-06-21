@@ -16,7 +16,7 @@ const devinfos=[
         'id':1,
         'img':tp,
         'title':'Total Projects',
-        'serviceInfo':'20+'
+        'serviceInfo':20
     },
     {
         'id':2,
@@ -47,7 +47,7 @@ const devinfos=[
         'id':3,
         'img':exp,
         'title':'Overal Experience',
-        'serviceInfo':'1.5'
+        'serviceInfo':1.5
     }
 ]
 

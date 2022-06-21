@@ -93,7 +93,7 @@
                 "percentage": 2
             }
         ],
-        "details": "Fully responsive car sales dynamic website. Users can explore the details but after logging in, users can buy or book a new or upcoming car and also give feedback. Admin verified by JWT token can handle everything.",
+        "details": "Fully responsive car sales dynamic website.  Users can explore the details but after logging in, users can buy or book a new or upcoming car and also give feedback. Admin verified by JWT token can handle everything.",
         "tecnology": " React JS, React-Router, ES6, Rest API, Material UI, Firebase, Java-Script, HTML, CSS, Canva, Node Js, Express, Firebase, JWT Token, MongoDB.",
         "liveSite": "https://car-house-bd.web.app/",
         "frontEndCode": "https://github.com/mesu-ai/car-house",

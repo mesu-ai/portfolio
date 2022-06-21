@@ -1,10 +1,10 @@
 import React from 'react';
 import '../Projects.css';
-import { Card, Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import useProjects from '../../../hooks/useProjects';
 import ProjectSlider from '../projectSlider/ProjectSlider';
-import LanguageUse from '../languageUse/LanguageUse';
+// import LanguageUse from '../languageUse/LanguageUse';
 import { HashLink } from 'react-router-hash-link';
 
 const ProjectDetails = () => {

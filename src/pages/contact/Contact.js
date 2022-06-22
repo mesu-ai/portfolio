@@ -21,6 +21,7 @@ const Contact = () => {
     },[]);
 
     const sendEmail = (e) => {
+        console.log(e);
         e.preventDefault();
         setLoading(true);
         emailjs.sendForm('service_m3oiybm', 'template_0bptm5s', e.target, 'user_gfR8X5W9oO7kv6P0nolPH')

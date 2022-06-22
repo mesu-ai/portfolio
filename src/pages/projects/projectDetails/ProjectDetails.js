@@ -83,11 +83,11 @@ const ProjectDetails = () => {
                                 </p>
                             </div>
 
-                            {/* <div>
+                            <div>
                                 <a href={projectFind?.liveSite} target="_blank" className='btn btn-danger mt-3 py-2 px-4 fw-bold shadow mb-2' style={{borderRadius:'12px'}} rel="noopener noreferrer">Site Visit<i className="bi bi-arrow-right-circle-fill ms-2"></i></a>
 
                                 <a href={projectFind?.frontEndCode} target="_blank" className='btn btn-success mt-3 py-2 px-4 fw-bold shadow mb-2 ms-3' style={{borderRadius:'12px'}} rel="noopener noreferrer">Github <i class="bi bi-github ms-2"></i></a>
-                            </div> */}
+                            </div>
 
                         </Col>
 

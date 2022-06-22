@@ -1,15 +1,15 @@
 
 import Button from '@restart/ui/esm/Button';
-import React, { useEffect, useState } from 'react';
-import emailjs from 'emailjs-com';
+import React, { useEffect, useRef, useState } from 'react';
 import { Alert, Col, Container, FloatingLabel, Form, Row, Spinner } from 'react-bootstrap';
 import './Contact.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import emailjs from '@emailjs/browser';
 
 
 const Contact = () => {
-
+    const form = useRef();
     const [show, setShow] = useState(false);
     const [isLoading,setLoading] = useState(false);
     
@@ -21,21 +21,20 @@ const Contact = () => {
     },[]);
 
     const sendEmail = (e) => {
-        console.log(e);
         e.preventDefault();
         setLoading(true);
-        emailjs.sendForm('service_m3oiybm', 'template_0bptm5s', e.target, 'user_gfR8X5W9oO7kv6P0nolPH')
+    
+        emailjs.sendForm(`service_m3oiybm`, `template_0bptm5s`, form.current, `user_gfR8X5W9oO7kv6P0nolPH`)
           .then((result) => {
               console.log(result.text);
               setShow(true);
-              
           }, (error) => {
               console.log(error.text);
           }).finally(()=>setLoading(false));
-          e.target.reset();
+               e.target.reset();
       };
 
-
+    
 
     return (
         <div style={{backgroundColor:'#f7f7f7',minHeight:'100vh',maxHeight:'auto',padding:'20px 0'}}>
@@ -47,10 +46,14 @@ const Contact = () => {
         <div>
         {show && 
         <Alert show={show} variant="success">
-            <Alert.Heading>Success !!</Alert.Heading>
-            <p>
-            An Email is Sent !
+            <div className='d-flex justify-content-center align-items-center'>
+            <Alert.Heading><i className="bi bi-check-circle-fill text-success"></i> Success !!</Alert.Heading>
+            <p className='text-primary ms-3 mb-2 fw-bold'>
+            An Email is Sent...
             </p>
+
+            </div>
+            
             <hr />
             <div className="d-flex justify-content-end">
             <button className="btn btn-danger" onClick={() => setShow(false)} >
@@ -63,7 +66,9 @@ const Contact = () => {
 
         <div className="border border-2 border-dark pt-4 pb-5" style={{borderRadius:'12px'}}>
         <h3 className="fw-bold mt-2 mb-5">Contact Me</h3>
-        <Form data-aos="fade-up" className="px-5 " onSubmit={sendEmail}>
+    
+
+        <form data-aos="fade-up" className="px-5 " ref={form} onSubmit={sendEmail}>
        
         <Row className="mb-3 text-start row-cols-1 row-cols-md-2 row-cols-lg-2 ">
         <Form.Group as={Col} controlId="formGridName">
@@ -105,7 +110,7 @@ const Contact = () => {
         <Button className="btn-outline-dark rounded-pill px-5 py-2 mt-5 " variant="primary" type="submit">
         SEND
         </Button>
-        </Form>
+        </form>
 
         </div>
             

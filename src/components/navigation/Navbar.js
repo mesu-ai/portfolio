@@ -20,6 +20,7 @@ const Navigation = () => {
     </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
+        
         <Nav className="ms-auto ">
        
         <NavLink  className="nav-item mt-lg-0 mt-2" as={HashLink} to='/home'>HOME</NavLink>

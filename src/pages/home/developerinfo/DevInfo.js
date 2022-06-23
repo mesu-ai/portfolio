@@ -53,7 +53,7 @@ const devinfos=[
 
 const DevInfo = () => {
     return (
-        <div style={{backgroundColor:'#f7f7f7',minHeight:'100vh',maxHeight:'auto' }}>
+        <div style={{backgroundColor:'#f7f7f7' }}>
         <Container className="py-5">
         
         <h3 className="mb-5 fw-bold">Development Information</h3>

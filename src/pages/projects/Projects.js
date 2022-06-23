@@ -13,7 +13,7 @@ const Projects = () => {
 
 
     return (
-        <div  style={{backgroundColor:'',minHeight:'100vh',maxHeight:'auto' }} className="my-4 py-5">
+        <div  style={{backgroundColor:'',height:'auto' }} className="my-4 py-5">
             <Container>
             <h3 className="fw-bold">My Projects</h3>
             <div className="my-5">

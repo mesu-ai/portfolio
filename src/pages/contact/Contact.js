@@ -37,7 +37,7 @@ const Contact = () => {
     
 
     return (
-        <div style={{backgroundColor:'#f7f7f7',minHeight:'100vh',maxHeight:'auto',padding:'20px 0'}}>
+        <div style={{backgroundColor:'#f7f7f7',height:'auto',padding:'60px 0'}}>
         <Container className=" justify-content-center align-items-center ">
 
         {isLoading ? <Spinner className="mt-5" animation="border" variant="primary" />:

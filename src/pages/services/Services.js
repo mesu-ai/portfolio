@@ -39,7 +39,7 @@ const services=[
 
 const Services = () => {
     return (
-        <div style={{backgroundColor:'#f7f7f7',minHeight:'100vh',maxHeight:'auto' }}>
+        <div style={{backgroundColor:'#f7f7f7',height:'auto' }}>
             <Container className="py-5">
             
             <h3 className="mb-5 fw-bold">My Services</h3>

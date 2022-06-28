@@ -3,6 +3,7 @@ import {Button, Container, Row} from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
 import useProjects from "../../hooks/useProjects";
 import ProjectCard from "./projectCard/ProjectCard";
+import ProjectFilter from "./projectFilter/ProjectFilter";
 
 
 const Projects = () => {
@@ -17,10 +18,11 @@ const Projects = () => {
             <Container>
             <h3 className="fw-bold">My Projects</h3>
             <div className="my-5">
-             <p className="text-start fs-5" >I have worked on many projects. 
+             {/* <p className="text-start fs-5" >I have worked on many projects. 
              <span className="fw-bold" style={{color:'tomato'}}> See some of my specific work.</span>
              
-              </p>
+              </p> */}
+              <ProjectFilter/>
             <hr />
             <Row xs={1} md={2} lg={3} className="g-4">
                 

@@ -1,0 +1,10 @@
+#projectFilter button{
+    background-color: crimson;
+    color: white;
+
+}
+#projectFilter button::after{
+    background-color: rgb(21, 143, 21);
+    color: white;
+
+}

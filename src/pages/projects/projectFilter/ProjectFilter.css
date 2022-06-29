@@ -1,9 +1,16 @@
 #projectFilter button{
     background-color: crimson;
     color: white;
+    margin: 5px;
 
 }
-#projectFilter button::after{
+
+#projectFilter button:hover{
+    background-color: rgb(21, 143, 21);
+    color: white;
+
+}
+#projectFilter button:active{
     background-color: rgb(21, 143, 21);
     color: white;
 

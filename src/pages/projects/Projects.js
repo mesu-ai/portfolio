@@ -1,4 +1,6 @@
 import React from "react";
+import { useTransition } from "react";
+import { useState } from "react";
 import {Button, Container, Row} from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
 import useProjects from "../../hooks/useProjects";
@@ -8,8 +10,30 @@ import ProjectFilter from "./projectFilter/ProjectFilter";
 
 const Projects = () => {
   const [projects]=useProjects();
+  const [selectProjects,setSelectProjects]=useState([]);
+  const [isPending,startTransition] =useTransition();
 
   const location=useLocation();
+
+  const handleProjectFilter=(event)=>{
+   
+    if(event !== 'all'){
+        const filterProject=projects.filter(project=>project?.catagory?.toLowerCase().includes(event.toLowerCase()));
+        
+        startTransition(()=>{
+                setSelectProjects(filterProject);
+    
+            });
+
+    }else{
+
+        startTransition(()=>{
+            setSelectProjects(projects);
+
+        });
+    }
+
+    }
   
 
 
@@ -22,16 +46,29 @@ const Projects = () => {
              <span className="fw-bold" style={{color:'tomato'}}> See some of my specific work.</span>
              
               </p> */}
-              <ProjectFilter/>
+              <ProjectFilter handleProjectFilter={handleProjectFilter}/>
             <hr />
+
+            {isPending && 
+            <h3>Loading...</h3>
+            }
+
             <Row xs={1} md={2} lg={3} className="g-4">
                 
                 { location.pathname==='/' || location.pathname==='/home' ? 
-                   projects.slice(0,3).map(project=><ProjectCard key={Math.random()} project={project}></ProjectCard>) 
+                   selectProjects?.length ? 
+                        selectProjects.slice(0,3).map(project=><ProjectCard key={Math.random()} project={project}></ProjectCard>) 
+
+                        :
+                        projects?.slice(0,3).map(project=><ProjectCard key={Math.random()} project={project}></ProjectCard>)
 
                    :
                    
-                    projects.map(project=><ProjectCard key={Math.random()} project={project}></ProjectCard>)
+                    selectProjects?.length ?
+                        selectProjects.map(project=><ProjectCard key={Math.random()} project={project}></ProjectCard>)
+
+                        : 
+                        projects.map(project=><ProjectCard key={Math.random()} project={project}></ProjectCard>)
                  
                 }
             </Row>

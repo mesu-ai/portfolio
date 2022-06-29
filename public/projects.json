@@ -182,5 +182,44 @@
                 "img3": "https://i.ibb.co/X5NPJcJ/heartcare3.png"
             }
         ]
+    },
+    {
+        "_id": "6",
+        "projectName": "Pet-Pat Landing Page",
+        "catagory": "Landing Page",
+        "language": [
+            {
+                "name": "Java-Script",
+                "percentage": 20
+            },
+            {
+                "name": "HTML",
+                "percentage": 58.7
+            },
+            {
+                "name": "CSS",
+                "percentage": 31.3
+            }
+        ],
+        "details": "Fully Responsive Pet-Pat App Landing page. It is an EWN BD projects. It's design is implemented by me. The landing page is two language English and Arabic",
+        "tecnology": "HTML, CSS, Bootstrap, jquery, javascript.",
+        "liveSite": "https://pet-pat-landingpage.netlify.app/",
+        "frontEndCode": "https://github.com/mesu-ai/petpat-landing-page",
+
+        "cover_img": "https://i.ibb.co/QvTmSn4/petg-1.png",
+        "picture": [
+            {
+                "img1": "https://i.ibb.co/QvTmSn4/petg-1.png"
+            },
+            {
+                "img2": "https://i.ibb.co/7QkP24D/petg-2.png"
+            },
+            {
+                "img3": "https://i.ibb.co/ZgB52nm/pet-cover.png"
+            },
+            {
+                "img4": "https://i.ibb.co/bz4h2Ss/lan1.png"
+            }
+        ]
     }
 ]

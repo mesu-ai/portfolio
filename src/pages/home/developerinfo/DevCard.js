@@ -15,7 +15,7 @@ const DevCard = ({info}) => {
 
     return (
         <Col>
-        <Card data-aos="zoom-in-up" className="h-100 p-3 shadow-lg " style={{borderRadius:'12px',backgroundColor:'white'}}>
+        <Card data-aos="zoom-in-up" style={{borderRadius:'12px',backgroundColor:'white'}} className={`h-100 p-3 shadow-lg ${info.id===2 ? 'bg-light' : ''}`} >
             <Card.Img  variant="top" src={info.img}  height="45" />
             <Card.Body>
             <Card.Title className="text-capitalize fw-bold">{info.title}</Card.Title>
@@ -33,13 +33,13 @@ const DevCard = ({info}) => {
                 <div>
                   <div>
                     {info.icons.slice(0,3).map((icon,index)=>
-                    <img key={index} src={icon.icon1} alt='' width={55}/>
+                    <img className='rounded-circle shadow mx-1 p-1 bg-white' key={index} src={icon.icon1} alt='' width={55} height={55}/>
                     )} 
 
                   </div>
                   <div>
                     {info.icons.slice(3,5).map((icon,index)=>
-                    <img key={index} src={icon.icon1} alt='' width={60}/>
+                    <img className='rounded-circle shadow mx-1 p-1 bg-white' key={index} src={icon.icon1} alt='' width={60} height={60}/>
                     )}
 
                   </div>
